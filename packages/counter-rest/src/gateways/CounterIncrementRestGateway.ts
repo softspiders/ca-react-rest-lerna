@@ -1,5 +1,5 @@
 import fetch from 'cross-fetch'
-import { Counter, CounterIncrementOut } from 'counter-core'
+import { Counter, CounterIncrementOut } from '@softspiders/counter-core'
 
 export class CounterIncrementRestGateway implements CounterIncrementOut {
   constructor(private readonly endpoint: string) {}

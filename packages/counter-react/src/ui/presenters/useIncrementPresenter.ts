@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { CounterIncrementIn } from 'counter-core'
+import { CounterIncrementIn } from '@softspiders/counter-core'
 
 export interface IncrementPresenterAPI {
   increment(): Promise<void>

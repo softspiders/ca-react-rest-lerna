@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { CounterResetIn } from 'counter-core'
+import { CounterResetIn } from '@softspiders/counter-core'
 
 export interface ResetPresenterAPI {
   reset(): Promise<void>

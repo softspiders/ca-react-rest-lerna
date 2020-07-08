@@ -2,7 +2,7 @@
 // @ts-ignore
 import { renderHook, act } from '@testing-library/react-hooks'
 import useResetPresenter from '../useResetPresenter'
-import { CounterResetIn } from 'counter-core'
+import { CounterResetIn } from '@softspiders/counter-core'
 
 describe('useResetPresenter', () => {
   const COUNTER_VALUE = 99

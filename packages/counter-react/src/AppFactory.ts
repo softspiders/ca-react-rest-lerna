@@ -3,8 +3,8 @@ import {
   CounterIncrementIn,
   CounterReset,
   CounterResetIn,
-} from 'counter-core'
-import { CounterIncrementRestGateway, CounterResetRestGateway } from 'counter-rest'
+} from '@softspiders/counter-core'
+import { CounterIncrementRestGateway, CounterResetRestGateway } from '@softspiders/counter-rest'
 
 export class AppFactory {
   private readonly counterIncrementIn: CounterIncrementIn

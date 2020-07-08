@@ -69,13 +69,14 @@ npm start
 
 ## Run tests
 
-Being in each package: *counter-core*, *counter-rest*, *counter-react*, do:
+Being in each package: *@softspiders/counter-core*, *@softspiders/counter-rest*, *@softspiders/counter-react*, do:
 
 ```sh
 yarn test
 ```
 
-For coverage testing (also being in each package: *counter-core*, *counter-rest*, *counter-react*) do:
+For coverage testing (also being in each package: *@softspiders/counter-core*, *@softspiders/counter-rest*,
+*@softspiders/counter-react*) do:
 
 ```sh
 yarn test:coverage

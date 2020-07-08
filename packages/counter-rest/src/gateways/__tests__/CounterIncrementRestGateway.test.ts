@@ -1,5 +1,5 @@
 import { CounterIncrementRestGateway } from '../CounterIncrementRestGateway'
-import { Counter } from "counter-core";
+import { Counter } from "@softspiders/counter-core";
 
 describe('CounterIncrementOutRestGateway', () => {
   const ENDPOINT = 'endpoint'

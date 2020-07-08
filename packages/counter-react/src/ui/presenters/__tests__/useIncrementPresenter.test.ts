@@ -1,6 +1,6 @@
 import { renderHook, act } from '@testing-library/react-hooks'
 import useIncrementPresenter from '../useIncrementPresenter'
-import { CounterIncrementIn } from 'counter-core'
+import { CounterIncrementIn } from '@softspiders/counter-core'
 
 describe('useIncrementPresenter', () => {
   const COUNTER_VALUE = 99

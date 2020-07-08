@@ -1,5 +1,5 @@
 import fetch from 'cross-fetch'
-import { CounterResetOut } from "counter-core";
+import { CounterResetOut } from '@softspiders/counter-core'
 
 export class CounterResetRestGateway implements CounterResetOut {
   constructor(private readonly endpoint: string) {}
