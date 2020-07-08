@@ -1,5 +1,5 @@
 {
-  "name": "counter-core",
+  "name": "@softspiders/counter-core",
   "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",

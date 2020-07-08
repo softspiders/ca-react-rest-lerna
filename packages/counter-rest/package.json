@@ -1,5 +1,5 @@
 {
-  "name": "counter-rest",
+  "name": "@softspiders/counter-rest",
   "version": "0.1.0",
   "private": true,
   "main": "dist/index.js",
