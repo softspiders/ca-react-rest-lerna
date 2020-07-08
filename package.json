@@ -1,13 +1,11 @@
 {
-  "description": "Working example to apply clean architecture to react codebases",
-  "name": "react-clean-architecture",
-  "version": "1.0.0",
-  "author": "eduardomoroni",
+  "author": "https://github.com/AlexanderLapygin",
+  "name": "ca-react-rest-lerna",
+  "version": "0.1.0",
   "license": "MIT",
-  "homepage": "https://github.com/eduardomoroni/react-clean-architecture#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eduardomoroni/react-clean-architecture.git"
+    "url": "git+https://github.com/softspiders/ca-react-rest-lerna.git"
   },
   "keywords": [
     "react",
@@ -15,11 +13,37 @@
     "clean-architecture",
     "boilerplate"
   ],
+  "keywords": [
+    "adapter",
+    "clean-architecture",
+    "counter-app",
+    "create-react-app",
+    "jest",
+    "jest-fetch-mock",
+    "ioc",
+    "lerna",
+    "persistence",
+    "react",
+    "react-hooks",
+    "rest",
+    "starter",
+    "typescript",
+    "yarn-workspaces"
+  ],
   "scripts": {
     "prettier": "prettier --write '**/src/**/*.ts?(x)'"
   },
   "devDependencies": {
     "prettier": "1.13.5",
     "prettierrc": "0.0.0-5"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/rimraf",
+      "**/rimraf/**"
+    ]
   }
 }
