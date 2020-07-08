@@ -4,7 +4,7 @@
     </a>
 </div>
 
-## Client application starter on the Clean Architecture in Yarn Workspace & Lerna monorepo
+## Client application starter on the *Clean Architecture* in *Yarn Workspace* & *Lerna* monorepo
    
 UNDER DEVELOPMENT
    
