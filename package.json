@@ -1,18 +1,21 @@
 {
-  "author": "https://github.com/AlexanderLapygin",
   "name": "ca-react-rest-lerna",
   "version": "0.1.0",
   "license": "MIT",
+  "author": "https://github.com/AlexanderLapygin",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/softspiders/ca-react-rest-lerna.git"
   },
-  "keywords": [
-    "react",
-    "react-native",
-    "clean-architecture",
-    "boilerplate"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/rimraf",
+      "**/rimraf/**"
+    ]
+  },
   "keywords": [
     "adapter",
     "clean-architecture",
@@ -31,19 +34,14 @@
     "yarn-workspaces"
   ],
   "scripts": {
+    "test": "lerna run test --since",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff",
     "prettier": "prettier --write '**/src/**/*.ts?(x)'"
   },
   "devDependencies": {
     "prettier": "1.13.5",
-    "prettierrc": "0.0.0-5"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "**/rimraf",
-      "**/rimraf/**"
-    ]
+    "prettierrc": "0.0.0-5",
+    "lerna": "^3.22.1"
   }
 }
