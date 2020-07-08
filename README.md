@@ -5,7 +5,9 @@
 </div>
 
 ## Client application starter on the Clean Architecture in monorepo
-    
+   
+UNDER DEVELOPMENT
+   
 ---
 
 ## Feature tags
@@ -14,7 +16,7 @@
 - counter-app
 - jest
 - jest-fetch-mock
-- monorepo
+- lerna
 - react
 - react-hooks
 - react-testing-library
@@ -24,12 +26,13 @@
 - typescript
 - unit-test
 - use-presenter
+- yarn-workspaces
 
 ---
 
 ## Parents
 
-- [**- monorepo**](https://github.com/softspiders/ca-react-rest-api-starter)
+- [**- lerna, yarn-workspaces**](https://github.com/softspiders/ca-react-rest-monorepo)
 
 ---
 
