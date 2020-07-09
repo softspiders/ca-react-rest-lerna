@@ -1,11 +1,11 @@
 {
   "name": "@softspiders/counter-core",
   "version": "0.1.0",
-  "author": "https://github.com/AlexanderLapygin",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf ./dist && tsc",
+    "build:watch": "tsc --watch",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },

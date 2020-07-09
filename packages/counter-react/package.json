@@ -1,5 +1,5 @@
 {
-  "name": "counter-react",
+  "name": "@softspiders/counter-react",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,15 +13,15 @@
   "dependencies": {
     "@softspiders/counter-core": "0.1.0",
     "@softspiders/counter-rest": "0.1.0",
-    "@types/jest": "25.2.3",
-    "@types/node": "12.7.3",
-    "@types/react": "16.9.36",
-    "@types/react-dom": "16.9.8",
     "dotenv": "^8.2.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
   "devDependencies": {
+    "@types/jest": "25.2.3",
+    "@types/node": "12.7.3",
+    "@types/react": "16.9.36",
+    "@types/react-dom": "16.9.8",
     "@testing-library/dom": "^7.10.1",
     "@testing-library/jest-dom": "^5.10.0",
     "@testing-library/react": "^10.2.1",

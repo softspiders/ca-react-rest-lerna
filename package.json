@@ -1,21 +1,16 @@
 {
   "name": "ca-react-rest-lerna",
   "version": "0.1.0",
+  "private": true,
   "author": "https://github.com/AlexanderLapygin",
   "workspaces": {
     "packages": [
       "packages/*"
-    ],
-    "nohoist": [
-      "**/rimraf",
-      "**/rimraf/**"
     ]
   },
   "scripts": {
-    "test": "lerna run test --since",
-    "new-version": "lerna version --conventional-commits --yes",
-    "diff": "lerna diff",
-    "prettier": "prettier --write '**/src/**/*.ts?(x)'"
+    "build": "lerna run build",
+    "test": "lerna run test --since"
   },
   "keywords": [
     "adapter",
