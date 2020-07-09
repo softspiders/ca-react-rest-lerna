@@ -1,19 +1,17 @@
 {
   "name": "@softspiders/counter-core",
   "version": "0.1.0",
-  "private": true,
+  "author": "https://github.com/AlexanderLapygin",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "rimraf ./dist && tsc",
     "test": "jest",
     "test:coverage": "jest --coverage"
   },
-  "dependencies": {
-    "@types/node": "12.7.3"
-  },
   "devDependencies": {
     "@types/jest": "^26.0.3",
+    "@types/node": "12.7.3",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
     "eslint": "^6.4.0",
@@ -22,6 +20,7 @@
     "jest": "^26.1.0",
     "jest-mock-extended": "^1.0.9",
     "prettier": "^1.18.2",
+    "rimraf": "^3.0.2",
     "ts-jest": "^26.1.1",
     "typescript": "3.9.5"
   },
@@ -36,6 +35,5 @@
       "node": true
     }
   },
-  "author": "https://github.com/AlexanderLapygin",
   "license": "MIT"
 }

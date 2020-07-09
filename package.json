@@ -1,12 +1,7 @@
 {
   "name": "ca-react-rest-lerna",
   "version": "0.1.0",
-  "license": "MIT",
   "author": "https://github.com/AlexanderLapygin",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/softspiders/ca-react-rest-lerna.git"
-  },
   "workspaces": {
     "packages": [
       "packages/*"
@@ -15,6 +10,12 @@
       "**/rimraf",
       "**/rimraf/**"
     ]
+  },
+  "scripts": {
+    "test": "lerna run test --since",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff",
+    "prettier": "prettier --write '**/src/**/*.ts?(x)'"
   },
   "keywords": [
     "adapter",
@@ -33,15 +34,14 @@
     "typescript",
     "yarn-workspaces"
   ],
-  "scripts": {
-    "test": "lerna run test --since",
-    "new-version": "lerna version --conventional-commits --yes",
-    "diff": "lerna diff",
-    "prettier": "prettier --write '**/src/**/*.ts?(x)'"
-  },
   "devDependencies": {
     "prettier": "1.13.5",
     "prettierrc": "0.0.0-5",
     "lerna": "^3.22.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softspiders/ca-react-rest-lerna.git"
+  },
+  "license": "MIT"
 }

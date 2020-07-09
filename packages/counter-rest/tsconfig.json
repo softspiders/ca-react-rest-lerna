@@ -1,9 +1,35 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "module": "commonjs",
-    "outDir": "./dist",   /* Redirect output structure to the directory. */
-    "declaration": true,  /* Generates corresponding '.d.ts' file. */
-    "strict": true
-  }
+    "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+    "types": ["jest", "node"],
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "declaration": true,
+
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": false,
+    "skipLibCheck": true,
+    "baseUrl": "..",
+    "paths": {
+      "@softspiders/*": ["./*/src"]
+    }
+  },
+  "include": ["./src/**/*.tsx", "./src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "src/setupTests.ts"
+  ]
+
 }
