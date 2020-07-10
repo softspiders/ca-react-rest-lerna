@@ -11,9 +11,9 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
-    "build": "lerna run build",
-    "test": "lerna run test --since --stream",
-    "test:coverage": "lerna run test:coverage"
+    "build": "npm run bootstrap && lerna run build",
+    "test": "npm run build && lerna run test --since --stream",
+    "test:coverage": "npm run build && lerna run test:coverage"
   },
   "keywords": [
     "adapter",
