@@ -12,7 +12,7 @@
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "build": "lerna run build",
-    "test": "lerna run test --since",
+    "test": "lerna run test --stream",
     "test:coverage": "lerna run test:coverage"
   },
   "keywords": [
