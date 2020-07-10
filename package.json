@@ -9,6 +9,8 @@
     ]
   },
   "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
     "build": "lerna run build",
     "test": "lerna run test --since"
   },
