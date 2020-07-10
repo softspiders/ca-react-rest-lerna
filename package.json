@@ -10,10 +10,11 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "clean": "rimraf **/build && rimraf **/dist && rimraf **/node_modules",
     "build": "npm run bootstrap && lerna run build",
+    "start": "npm run build && lerna run start --stream",
     "test": "npm run build && lerna run test --since --stream",
-    "test:coverage": "npm run build && lerna run test:coverage"
+    "test:coverage": "npm run build && lerna run test:coverage",
+    "clean": "rimraf **/build && rimraf **/dist && rimraf **/node_modules"
   },
   "keywords": [
     "adapter",

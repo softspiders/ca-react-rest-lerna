@@ -47,19 +47,11 @@
 * [*rimraf*](https://www.npmjs.com/package/rimraf)
 
 ---
-## Inspired by
-
-[Eduardo Moroni](https://github.com/eduardomoroni)'s
-[*react-clean-architecture*](https://github.com/eduardomoroni/react-clean-architecture)
-
----
 
 ## Install
 
-Being in *counter-react*, do:
-
 ```sh
-yarn
+npm run bootstrap
 ```
 
 ---
@@ -67,7 +59,6 @@ yarn
 ## Running
 
 At first [start server](https://xg4qv.sse.codesandbox.io) on CodeSandbox.
-Then, being in *counter-react*, do:
 
 ```sh
 npm start
