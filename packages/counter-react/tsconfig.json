@@ -3,12 +3,15 @@
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist",
-
     "module": "esnext",
     "target": "es5",
-    "lib": ["es6", "dom", "esnext.asynciterable"],
+    "lib": [
+      "es6",
+      "dom",
+      "esnext.asynciterable"
+    ],
     "allowJs": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "suppressImplicitAnyIndexErrors": true,
