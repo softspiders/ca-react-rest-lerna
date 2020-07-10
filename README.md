@@ -59,24 +59,25 @@ npm run bootstrap
 ## Running
 
 At first [start server](https://xg4qv.sse.codesandbox.io) on CodeSandbox.
+Then do:
 
 ```sh
 npm start
 ```
 
+After that, the application starts on one of the browser tabs. 
+
+
 ## Run tests
 
-Being in each package: *@softspiders/counter-core*, *@softspiders/counter-rest*, *@softspiders/counter-react*, do:
-
 ```sh
-yarn test
+npm test
 ```
 
-For coverage testing (also being in each package: *@softspiders/counter-core*, *@softspiders/counter-rest*,
-*@softspiders/counter-react*) do:
+For coverage testing:
 
 ```sh
-yarn test:coverage
+npm test:coverage
 ```
 
 ---
