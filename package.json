@@ -10,7 +10,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "clean": "rimraf **/node_modules && rimraf **/build && rimraf **/dist",
+    "clean": "rimraf **/build && rimraf **/dist && rimraf **/node_modules &",
     "build": "npm run bootstrap && lerna run build",
     "test": "npm run build && lerna run test --since --stream",
     "test:coverage": "npm run build && lerna run test:coverage"
@@ -33,8 +33,6 @@
     "yarn-workspaces"
   ],
   "devDependencies": {
-    "prettier": "1.13.5",
-    "prettierrc": "0.0.0-5",
     "lerna": "^3.22.1"
   },
   "repository": {
