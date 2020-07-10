@@ -10,7 +10,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "clean": "rimraf **/node_modules && rimraf **/dist && rimraf **/build",
+    "clean": "rimraf **/node_modules && rimraf **/build && rimraf **/dist",
     "build": "npm run bootstrap && lerna run build",
     "test": "npm run build && lerna run test --since --stream",
     "test:coverage": "npm run build && lerna run test:coverage"

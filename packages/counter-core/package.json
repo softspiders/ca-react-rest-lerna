@@ -20,7 +20,6 @@
     "jest": "^26.1.0",
     "jest-mock-extended": "^1.0.9",
     "prettier": "^1.18.2",
-    "rimraf": "^3.0.2",
     "ts-jest": "^26.1.1",
     "typescript": "3.9.5"
   },
