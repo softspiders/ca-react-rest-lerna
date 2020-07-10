@@ -6,8 +6,6 @@
 
 ## Client application starter on the *Clean Architecture* in *Yarn Workspace* & *Lerna* monorepo
    
-UNDER DEVELOPMENT
-   
 ---
 
 ## Feature tags
@@ -39,6 +37,14 @@ UNDER DEVELOPMENT
 ## Author
 
 [Alexander Lapygin](https://github.com/AlexanderLapygin) <<alexanderlapygin@gmail.com>>
+
+---
+
+## Requirements
+
+* [*Node*](https://nodejs.org/en/download/package-manager/)
+* [*TypeScript*](https://www.typescriptlang.org/)
+* [*rimraf*](https://www.npmjs.com/package/rimraf)
 
 ---
 ## Inspired by
