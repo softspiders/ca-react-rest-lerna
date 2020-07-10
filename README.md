@@ -32,6 +32,11 @@
 
 - [**- lerna, yarn-workspaces**](https://github.com/softspiders/ca-react-rest-monorepo)
 
+
+## Children
+
+- [**+ react-native**](https://github.com/softspiders/ca-react-web-mobile-rest-lerna)
+
 ---
 
 ## Author
