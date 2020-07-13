@@ -35,7 +35,7 @@
 
 ## Children
 
-- [**+ react-native**](https://github.com/softspiders/ca-react-web-mobile-rest-lerna)
+- [**+ react-native**](https://github.com/softspiders/ca-react-web-mobile-rest-monorepo)
 
 ---
 
